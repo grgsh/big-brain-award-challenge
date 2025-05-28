@@ -27,7 +27,6 @@ const TEST_DATA = [
 
 test("correct order", () => {
   TEST_DATA.forEach(([input, expected]) => {
-    console.log(expected);
     expect(answer(input)).toEqual(expected);
   });
 });
