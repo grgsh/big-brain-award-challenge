@@ -4,6 +4,5 @@ export default function (arr) {
     if (b == 0) return -1;
     return a - b;
   });
-  console.log(sortedArray);
   return sortedArray;
 }
